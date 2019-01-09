@@ -1,0 +1,384 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+  .myNav {
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+    
+    border-bottom: 6px solid #0B2D5A; 
+  }
+    .myNav .navbar-brand img {
+      width: 4rem;
+      margin-right: 20px; 
+    }
+    .myNav .navbar-brand span {
+      font-weight: bold;
+      font-size: 28px; 
+    }
+    .myNav .navbar-nav .nav-item .nav-link {
+      font-size: 20px;
+      margin-right: 15px;
+      transition: all 0.1s;
+      -webkit-transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      -ms-transition: all 0.1s;
+      -o-transition: all 0.1s; 
+    }
+    .myNav .navbar-nav .nav-item:hover .nav-link {
+      color: #1D1F38;
+      font-weight: bold;
+      font-size: 21px; 
+    }
+    .myNav .line {
+      width: 0%;
+      height: 3px;
+      background-color: #8261B3;
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s; 
+    }
+    .myNav .navbar-nav .nav-item:hover .nav-link .line {
+      width: 100%;
+       }
+  
+  .wrapper {
+    background-image: url("../img/philippe-toupet-320689-unsplash.jpg");
+    height: 650px;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat; }
+  
+  .myHeader {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5; }
+    .myHeader h3 {
+      margin-bottom: 30px; }
+    .myHeader p {
+      margin-bottom: 50px; }
+  
+  /*# sourceMappingURL=xedike.css.map */
+  
+  
+  
+  /*FOOTER*/
+  .bg6{
+    background: #f0f0f0;
+  }
+  .flex-w{
+      display: flex;
+       flex-wrap: wrap;
+  }
+  .w-size6 {
+      width: 35%;
+      padding-left: 30px;
+  }
+  .p-r-15 {
+      padding-right: 15px;
+  }
+  .w-size7 {
+      width: 21%;
+  }
+  .p-l-15 {
+      padding-left: 15px;
+  }
+  .p-t-30 {
+      padding-top: 30px;
+  }
+  * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+  div {
+      display: block;
+  }
+  body, html {
+      height: 100%;
+      font-family: Montserrat-Regular, sans-serif;
+      font-weight: 400;
+  }
+  .s-text12 {
+      font-family: Montserrat-Bold;
+      font-size: 15px;
+      color: #222222;
+      line-height: 1.5;
+      text-transform: uppercase;
+  }
+  .p-b-30 {
+      padding-bottom: 30px;
+  }
+  
+  h4{
+    margin: 0px;
+  }
+   h4 {
+      font-size: 1.5rem;
+  }
+  h4 {
+      display: block;
+      -webkit-margin-before: 1.33em;
+      -webkit-margin-after: 1.33em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+  }
+  .p-b-9 {
+      padding-bottom: 9px;
+  }
+  ul, li {
+      margin: 0px;
+      list-style-type: none;
+  }
+  .p-t-30 {
+      padding-top: 30px;
+  }
+  /*css for menu*/
+  .container{
+    margin:20px 50px;
+  }
+  
+  .destinations {
+      width: 100%;
+      background: #FFFFFF;
+      padding-top: 115px;
+      padding-bottom: 116px;
+      
+  }
+  .destination_title{
+    margin-top: 10px;
+  }
+  .destination_content{
+    margin-top: 10px;
+  }
+  .container {
+      max-width: 1500px;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .destination_content{
+    text-align: center;
+    width: 600px;
+    height: 550px;
+  }
+  .section_title {
+      color: #181818;
+      margin: 15px 26px;
+      text-align: center!important;
+  }
+  #center-img{
+    margin-left: 25%;
+  }
+  /*.destinations_row {
+      margin-top: 99px;
+  }*/
+  .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: 10px;
+  }
+  div {
+      display: block;
+      position: relative;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  * {
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+      text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  }
+  /*.col {
+      -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%;
+          position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+  
+  }*/
+  .destinations_container {
+      width: calc(100% + 30px);
+      left: -15px;
+      /*height: 1500px;*/
+  }
+  .book{
+    background-color: #cccc00;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+    position: relative;
+    padding: 10px 40px;
+    /*margin: 0px 10px 10px 0px;*/
+    
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    
+  }
+  .book:hover{
+    background: #ADE4FF;
+  }
+  a:hover {
+      color: #E8720C;
+      text-decoration: none;
+  
+  }
+  .ant-row-flex-space-around {
+  
+      justify-content: space-around;
+  }
+  .ant-row-flex {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+  
+      flex-flow: row wrap;
+  }
+  .ant-layout, .ant-layout * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  
+  .fixed_width_content {
+      width: 1170px;
+  }
+  .ant-row::before {
+      position: relative;
+      margin-left: 0;
+      margin-right: 0;
+      height: auto;
+      zoom: 1;
+      display: block;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  .ant-row:after {
+      clear: both;
+  }
+  .ant-row:after {
+      content: "";
+      display: table;
+  }
+  *::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  
+  .ant-col-lg-6 {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    min-width: 992px;
+  }
+  .ant-col-md-6 {
+      display: block;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 50%;
+      float: right;
+  }
+  .ant-btn-primary {
+      color: #fff;
+      background-color: #008fe1;
+      /* border-color: #008fe1; */
+  }
+  .ant-btn, .ant-btn:active, .ant-btn:focus {
+      outline: 0;
+  }
+  .ant-btn-lg {
+      padding: 0 15px;
+      font-size: 16px;
+      border-radius: 5px;
+      height: 45px;
+  }
+  
+    img {
+      vertical-align: middle;
+      border-style: none;
+  }
+  .intro3_section___3U1ik .driver_photos___3eLIA {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      text-align: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      height: 600px;
+      overflow: hidden;
+  }
+  .intro3_section___3U1ik .more___2qtdx {
+      height: 600px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: start;
+      text-align: left;
+      padding: 30px 0 30px 30px;
+  } 
+  .intro3_section___3U1ik .intro3_section_inner___1J-9y {
+      height: 100%;
+      z-index: 2;
+  }
+  .intro3_section___3U1ik .driver_photos___3eLIA .second_image___g_NYr {
+      left: 0;
+  }
+  .intro3_section___3U1ik .driver_photos___3eLIA .third_image___22BAv {
+      right: 0;
+  }
+  .intro3_section___3U1ik .driver_photos___3eLIA .driver_photo___Zp_9A {
+      position: absolute;
+  }
+  .intro3_section___3U1ik .driver_photos___3eLIA .first_image___3ZU5a {
+      position: relative !important;
+      z-index: 3;
+    }
+    .myTabar_ams{
+      margin-top: 80px;
+    }
+    .myLogin{
+      margin-top:150px;
+      margin-bottom: 150px;
+  }
